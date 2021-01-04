@@ -7,3 +7,21 @@ h1
 {
  font-size: 1em; 
 }
+
+.section2, aside
+{
+    background-color: #F2F2F2;
+}
+
+nav>ul
+/* ul enfant de nav  */
+{
+    list-style: none;
+}
+
+.linav, .filtres
+{
+    display: inline;
+}
+
+.filtres
