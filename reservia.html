@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="reservia.css">
     
@@ -12,9 +11,9 @@
 
   <header>
     
-    <img src="images/logo/Reservia@3x.png" alt="logoreservia">
+    <img class="logo" src="images/logo/Reservia@3x.png" alt="logoreservia">
     <nav>
-      <ul>
+      <ul class="nav">
           <li class="linav"> <a href="#ancre1"> Hébergements </a></li>
           <li class="linav"> <a href="#ancre2"> Activités </a> </li>
           <li class="linav"><a href="#ancre3">S'inscrire</a></li>
@@ -30,92 +29,102 @@
       <input class="Rechercher" type="button" value="Rechercher">
     
     
-        <ul class="filtres">
-            <li class="filtres">Filtres</li>
-            <li class="filtres">Economique</li>
-            <li class="filtres">Familial</li>
-            <li class="filtres">Romantique</li>
-            <li class="filtres">Animaux autorisés</li>
-        </ul>
+      <input class="filtres"  type="button" value="Filtres">
+        
+      <input class="filtres" type="button" value="Economique">
+
+      <input class="filtres" type="button" value="Familial">
+        
+      <input class="filtres" type="button" value="Romantique">
+        
+      <input class="filtres" type="button" value="Animaux autorisés">
+
+
     
   </section>
   
   
   <section class="section2">
-      <article>
-        <p class="info"> ! Plus de 500 logements sont disponible dans cette ville</p>
+      <article class="hebergements"> 
         <h2> Hébergements à Marseille</h2>
-            
-          <figure>
+
+        <p class="info"> ! Plus de 500 logements sont disponible dans cette ville</p>
+        
+         <div class="figbox">  
+          <figure class="fighebergements">
               <img src="images/hebergements/4_small/cannebiere.jpg" alt="Hôtel de la Canebiere">
               <figcaption>
-                <span class="titre">Auberge de la Cannebière</span>
+                <span class="titre">Auberge de la Cannebière</span><br>
                 <span class="prix">Nuit à partir de <em>25€</em></span>
               </figcaption>
           </figure>   
         
-          <figure>
+          <figure class="fighebergements">
             <img src="images/hebergements/4_small/duport.jpg" alt="Hôtel de la Canebiere">
             <figcaption>
-              <span class="titre">Hôtel du port</span>
+              <span class="titre">Hôtel du port</span><br>
               <span class="prix">Nuit à partir de <em>50€</em></span>
             </figcaption>
           </figure>   
 
     
-          <figure>
+          <figure class="fighebergements">
             <img src="images/hebergements/4_small/lesmouettes.jpg" alt="Hôtel de la Canebiere">
             <figcaption>
-              <span class="titre">Hôtel les Mouettes</span>
+              <span class="titre">Hôtel les Mouettes</span><br>
               <span class="prix">Nuit à partir de <em>76€</em></span>
             </figcaption>
           </figure>
         
-          <figure>
+          <figure class="fighebergements">
             <img src="images/hebergements/4_small/delamer.jpg" alt="Hôtel de la Canebiere">
             <figcaption>
-              <span class="titre">Hôtel de la mer</span>
+              <span class="titre">Hôtel de la mer</span><br>
               <span class="prix">Nuit à partir de <em>46€</em></span>
             </figcaption>
           </figure>
         
-          <figure>
+          <figure class="fighebergements">
             <img src="images/hebergements/4_small/lepanier.jpg" alt="Hôtel de la Canebiere">
             <figcaption>
-              <span class="titre">Auberge Le Panier</span>
+              <span class="titre">Auberge Le Panier</span><br>
               <span class="prix">Nuit à partir de <em>25€</em></span>
             </figcaption>
           </figure>
 
-          <figure>
+          <figure class="fighebergements">
             <img src="images/hebergements/4_small/chezamina.jpg" alt="Hôtel de la Canebiere">
             <figcaption>
-              <span class="titre">Hôtel chez Amina</span>
+              <span class="titre">Hôtel chez Amina</span><br>
               <span class="prix">Nuit à partir de <em>90€</em></span>
             </figcaption>
           </figure>
+        </div> 
         </article>
 
       <aside>
         <h1> Les plus populaires</h1>
 
-          <figure>
+          <figure class="figpopulaire">
             <figcaption>
-              <span class="titre">Hôtel Le soleil du matin</span>
+              <img src="images/hebergements/4_small/lesoleildumatin.jpg">
+              <span class="titre">Hôtel Le soleil du matin</span><br>
               <span class="prix">Nuit à partir de <em>540€</em></span>
             </figcaption>
           </figure>
 
-          <figure>
+          <figure class="figpopulaire">
             <figcaption>
-              <span class="titre">Au cours de l'eau Chambres d'hôtes</span>
+              <img src="images/hebergements/4_small/aucourdeleau.jpg">
+              <span class="titre">Au cours de l'eau Chambres d'hôtes</span><br>
               <span class="prix">Nuit à partir de <em>70€</em></span>
             </figcaption>
           </figure>
 
-          <figure>
+          <figure class="figpopulaire">
             <figcaption>
-              <span class="titre">HôtelTout bleu et Blanc</span>
+              <img src="images/hebergements/4_small/toutbleuetblanc.jpg">
+              <span class="titre">HôtelTout bleu et Blanc</span> <br>
               <span class="prix">Nuit à partir de <em>68€</em></span>
             </figcaption>
           </figure>
@@ -123,9 +132,9 @@
   </section>
 
   <section class="section3">
-    <article >
+    <article class="article3">
       <h1>Activités à Marseille</h1>
-    
+    <div class="figbox">
       <figure>
         <img src="images/activites/4_small/vieuxport.jpg" alt="le vieux port">
         <figcaption>
@@ -167,10 +176,11 @@
           <span class="titre">Parc Longchamp</span>
         </figcaption>
       </figure>
+    </div>  
     </article>
   </section>
 
-  <footer >     
+  <footer class="footer" >     
     <ul>
       <li>A propos</li>
       <li>Fonctionnement du site</li>

@@ -1,4 +1,83 @@
-header img
+
+
+.hebergements, aside
+{
+    border-radius: 15px;
+    background-color: #F2F2F2;
+}
+
+
+.hebergements
+{
+ width: 60%;
+ margin: auto;
+ margin-right: 20px;
+}
+
+aside
+{
+    width: 30%;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    margin: auto;   
+}
+
+.figbox
+{
+    display: flex;
+    justify-content: space-between;    
+    flex-wrap: wrap;        
+}
+
+.fighebergements
+{
+    width: 14em;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    margin:10px;
+}
+
+img
+{
+    width: 13em;
+    border-radius: 15px;
+}
+
+.section2,.section3
+{
+    display: flex;
+    margin: auto;
+}
+
+
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+}
+
+.article3
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body
+{
+    width: 100%;
+}
+
+.figpopulaire
+{
+    width: auto;
+    background-color: white;
+    height: auto;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.logo
 {
  width: 10%;   
 }
@@ -6,11 +85,6 @@ header img
 h1
 {
  font-size: 1em; 
-}
-
-.section2, aside
-{
-    background-color: #F2F2F2;
 }
 
 nav>ul
@@ -24,4 +98,12 @@ nav>ul
     display: inline;
 }
 
-.filtres
+.titre
+{
+    font-style: bold;
+}
+
+.prix
+{
+    color: grey;
+}
