@@ -22,7 +22,7 @@ aside
     margin: auto;   
 }
 
-.figbox
+.figurecontainer
 {
     display: flex;
     justify-content: space-between;    
@@ -44,7 +44,7 @@ img
     border-radius: 15px;
 }
 
-.section2,.section3
+.section-hebergements,.section3
 {
     display: flex;
     margin: auto;
@@ -68,7 +68,7 @@ body
     width: 100%;
 }
 
-.figpopulaire
+.figureaside
 {
     width: auto;
     background-color: white;
@@ -107,3 +107,4 @@ nav>ul
 {
     color: grey;
 }
+
