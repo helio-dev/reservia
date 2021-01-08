@@ -1,199 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>reservia.fr</title>
-    <link rel="stylesheet" href="reservia.css">
-    
-</head>
-<body>
+  <head>
+      <meta charset="UTF-8">
+      <title>reservia.fr</title>
+      <link rel="stylesheet" href="reservia.css">
+      
+  </head>
+
+  <body>
+
     <div class="bloc_page">
 
-  <header>
+      <header>   
+        <img class="logo" src="images/logo/Reservia@3x.png" alt="logoreservia">
+        <nav>
+          <ul class="nav">
+            <li class="linav"> <a href="#ancre1"> Hébergements </a></li>
+            <li class="linav"> <a href="#ancre2"> Activités </a> </li>
+            <li class="linav"><a href="#ancre3">S'inscrire</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="section1">
+        <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>en plein centre ville ou en pleine nature</p>
+        <p class="info"> ! Plus de 500 logements sont disponible dans cette ville</p>
+      
+        <input class="barre de recherche" type="search">
+        <input class="Rechercher" type="button" value="Rechercher">
+      
+        <div class="filtres container">
+          <input class="filtres"  type="button" value="Filtres">        
+          <input class="filtres" type="button" value="Economique">
+          <input class="filtres" type="button" value="Familial">
+          <input class="filtres" type="button" value="Romantique">       
+          <input class="filtres" type="button" value="Animaux autorisés">
+        </div>
+      </section>
     
-    <img class="logo" src="images/logo/Reservia@3x.png" alt="logoreservia">
-    <nav>
-      <ul class="nav">
-          <li class="linav"> <a href="#ancre1"> Hébergements </a></li>
-          <li class="linav"> <a href="#ancre2"> Activités </a> </li>
-          <li class="linav"><a href="#ancre3">S'inscrire</a></li>
-      </ul>
-    </nav>
-  </header>
+      <section class="section2">
+        <article class="hebergements"> 
+          <h2> Hébergements à Marseille</h2>
 
-  <section class="section1">
-    <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
-    <p>en plein centre ville ou en pleine nature</p>
-    <p class="info"> ! Plus de 500 logements sont disponible dans cette ville</p>
-    
-      <input class="barre de recherche" type="search">
-      <input class="Rechercher" type="button" value="Rechercher">
-    
-    <div class="filtres container">
-      <input class="filtres"  type="button" value="Filtres">
+          <div class="figbox">  
+            <figure>
+              <img src="images/hebergements/4_small/cannebiere.jpg" alt="Hôtel de la Canebiere">
+              <figcaption>
+                <h3>Auberge de la Cannebière</h3>
+                <p>Nuit à partir de <em>25€</em></p>
+              </figcaption>
+            </figure>
         
-      <input class="filtres" type="button" value="Economique">
+            <figure>
+              <img src="images/hebergements/4_small/duport.jpg" alt="Hôtel de la Canebiere">
+              <figcaption>
+                <h3>Hôtel du port</h3>
+                <p>Nuit à partir de <em>50€</em></p>
+              </figcaption>
+            </figure>
 
-      <input class="filtres" type="button" value="Familial">
-        
-      <input class="filtres" type="button" value="Romantique">
-        
-      <input class="filtres" type="button" value="Animaux autorisés">
-    </div>
+            <figure>
+              <img src="images/hebergements/4_small/lesmouettes.jpg" alt="Hôtel de la Canebiere">
+              <figcaption>
+                <h3>Hôtel de la mer</h3>
+                <p>Nuit à partir de <em>46€</em></p>
+              </figcaption>
+            </figure>
 
-  </section>
-  
-  
-  <section class="section2">
-      <article class="hebergements"> 
-        <h2> Hébergements à Marseille</h2>
+            <figure>
+              <img src="images/hebergements/4_small/lepanier.jpg" alt="Hôtel de la Canebiere">
+              <figcaption>
+                <h3>Auberge le Panier</h3>
+                <p>Nuit à partir de <em>25€</em></p>
+              </figcaption>
+            </figure>
 
-        
-        
-         <div class="figbox">  
-          <figure>
-            <img src="images/hebergements/4_small/cannebiere.jpg" alt="Hôtel de la Canebiere">
-            <figcaption>
-              <h3>Auberge de la Cannebière</h3>
-              <p>Nuit à partir de <em>25€</em></p>
-            </figcaption>
-          </figure>
-          
-          <figure>
-            <img src="images/hebergements/4_small/duport.jpg" alt="Hôtel de la Canebiere">
-            <figcaption>
-              <h3>Hôtel du port</h3>
-              <p>Nuit à partir de <em>50€</em></p>
-            </figcaption>
-          </figure>
-
-          <figure>
-            <img src="images/hebergements/4_small/lesmouettes.jpg" alt="Hôtel de la Canebiere">
-            <figcaption>
-              <h3>Hôtel de la mer</h3>
-              <p>Nuit à partir de <em>46€</em></p>
-            </figcaption>
-          </figure>
-
-          <figure>
-            <img src="images/hebergements/4_small/lepanier.jpg" alt="Hôtel de la Canebiere">
-            <figcaption>
-              <h3>Auberge le Panier</h3>
-              <p>Nuit à partir de <em>25€</em></p>
-            </figcaption>
-          </figure>
-
-          <figure>
-            <img src="images/hebergements/4_small/chezamina.jpg" alt="Hôtel de la Canebiere">
-            <figcaption>
-              <h3>Hôtel chez Amina</h3>
-              <p>Nuit à partir de <em>90€</em></p>
-            </figcaption>
-          </figure>
-
-          
-        </div> 
+            <figure>
+              <img src="images/hebergements/4_small/chezamina.jpg" alt="Hôtel de la Canebiere">
+              <figcaption>
+                <h3>Hôtel chez Amina</h3>
+                <p>Nuit à partir de <em>90€</em></p>
+              </figcaption>
+            </figure>   
+          </div> 
         </article>
 
-      <aside>
-        <h1> Les plus populaires</h1>
-
+        <aside>
+          <h2> Les plus populaires</h2>
+          
           <figure class="figpopulaire">
+            <img src="images/hebergements/4_small/lesoleildumatin.jpg">
             <figcaption>
-              <img src="images/hebergements/4_small/lesoleildumatin.jpg">
-              <h2>Hôtel Le soleil du matin</h2><br>
-              <p>Nuit à partir de <em>540€</em></p>
+              <h3>Hôtel le soleil du matin</h3><br>
+              <p>Nuit à partir de <em>54€</em></p>
             </figcaption>
           </figure>
 
           <figure class="figpopulaire">
+            <img src="images/hebergements/4_small/aucourdeleau.jpg">
             <figcaption>
-              <img src="images/hebergements/4_small/aucourdeleau.jpg">
-              <h2>Au cours de l'eau Chambres d'hôtes</h2><br>
+              <h3>Au cours de l'eau Chambres d'hôtes</h3><br>
               <p>Nuit à partir de <em>70€</em></p>
             </figcaption>
           </figure>
 
           <figure class="figpopulaire">
+            <img src="images/hebergements/4_small/toutbleuetblanc.jpg">
             <figcaption>
-              <img src="images/hebergements/4_small/toutbleuetblanc.jpg">
-              <h2>HôtelTout bleu et Blanc</h2> <br>
+              <h3>Hôtel Tout bleu et Blanc</h3><br>
               <p>Nuit à partir de <em>68€</em></p>
             </figcaption>
           </figure>
-       </aside>
-  </section>
+        </aside>
+      </section>
 
-  <section class="section3">
-    <article class="article3">
-      <h1>Activités à Marseille</h1>
-    <div class="figbox">
-      <figure>
-        <img src="images/activites/4_small/vieuxport.jpg" alt="le vieux port">
-        <figcaption>
-          <h2>Vieux Port</h2>
-        </figcaption>
-      </figure>
+      <section class="section3">
+        <article class="article3">
+          <h1>Activités à Marseille</h1>
+          <div class="figbox">
+            <figure>
+              <img src="images/activites/4_small/vieuxport.jpg" alt="le vieux port">
+              <figcaption>
+                <h2>Vieux Port</h2>
+              </figcaption>
+            </figure>
 
-      <figure>
-        <img src="images/activites/4_small/fortdeplomegues.jpg" alt="Le fort de Pomègues"> 
-        <figcaption>
-          <h2>Fort de Pomègues</h2>
-        </figcaption>
-      </figure>
+            <figure>
+              <img src="images/activites/4_small/fortdeplomegues.jpg" alt="Le fort de Pomègues"> 
+              <figcaption>
+                <h2>Fort de Pomègues</h2>
+              </figcaption>
+            </figure>
 
-      <figure>
-        <img src="images/activites/4_small/ilesdufrioul.jpg" alt="Iles du Frioul">
-        <figcaption>
-          <h2>Iles du Frioul</h2>
-        </figcaption>
-      </figure>
+            <figure>
+              <img src="images/activites/4_small/ilesdufrioul.jpg" alt="Iles du Frioul">
+                <figcaption>
+                  <h2>Iles du Frioul</h2>
+                </figcaption>
+            </figure>
 
-      <figure>
-        <img src="images/activites/4_small/parcnationaldescalanques.jpg" alt="Parc national des Calanques">
-        <figcaption>
-          <h2>Parc national des Calanques</h2>
-        </figcaption>
-      </figure>
+            <figure>
+              <img src="images/activites/4_small/parcnationaldescalanques.jpg" alt="Parc national des Calanques">
+              <figcaption>
+                <h2>Parc national des Calanques</h2>
+              </figcaption>
+            </figure>
 
-      <figure>
-        <img src="images/activites/4_small/notredamedelagarde.jpg" alt="Notre Dame de la garde">
-       <figcaption>
-          <h2>Notre dame de la garde</h2>
-        </figcaption>
-      </figure>
+            <figure>
+              <img src="images/activites/4_small/notredamedelagarde.jpg" alt="Notre Dame de la garde">
+                <figcaption>
+                  <h2>Notre dame de la garde</h2>
+                </figcaption>
+            </figure>
 
-      <figure>
-        <img src="images/activites/4_small/parclongchamp.jpg" alt="Parc Longchamp">
-       <figcaption>
-          <h2>Parc Longchamp</h2>
-        </figcaption>
-      </figure>
-    </div>  
-    </article>
-  </section>
+            <figure>
+              <img src="images/activites/4_small/parclongchamp.jpg" alt="Parc Longchamp">
+              <figcaption>
+                <h2>Parc Longchamp</h2>
+              </figcaption>
+            </figure>
+          </div>  
+        </article>
+      </section>
 
-  <footer class="footer" >     
-    <ul>
-      <li>A propos</li>
-      <li>Fonctionnement du site</li>
-      <li>Conditions générales de vente</li>
-      <li>Données et confidentialité</li>
-    </ul>
-       
-    <ul>
-      <li>Nos hébergements</li>
-      <li>Charte qualité</li>
-      <li>Soumettre votre hôtel</li>
-    </ul>
-            
-    <ul>
-      <li>Assistance</li>
-      <li>Centre d'aide</li>
-      <li>Nous contacter</li>
-    </ul> 
-  </footer>
-
-</div>    
-</body>
+      <footer class="footer" >     
+        <ul>
+          <li>A propos</li>
+          <li>Fonctionnement du site</li>
+          <li>Conditions générales de vente</li>
+          <li>Données et confidentialité</li>
+        </ul>
+        
+        <ul>
+          <li>Nos hébergements</li>
+          <li>Charte qualité</li>
+          <li>Soumettre votre hôtel</li>
+        </ul>
+              
+        <ul>
+          <li>Assistance</li>
+          <li>Centre d'aide</li>
+          <li>Nous contacter</li>
+        </ul> 
+      </footer>
+    </div>    
+  </body>
 </html>
