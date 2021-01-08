@@ -5,10 +5,21 @@
       <title>reservia.fr</title>
       <link rel="stylesheet" href="reservia.css">
       
+      <link href="/home/toor/Bureau/gitopc/reservia-git/fontawesome-free-5.15.1-web
+
+/css/fontawesome.css" rel="stylesheet">
+      <link href="/home/toor/Bureau/gitopc/reservia-git/fontawesome-free-5.15.1-web
+
+/css/brands.css" rel="stylesheet">
+      <link href="/home/toor/Bureau/gitopc/reservia-git/fontawesome-free-5.15.1-web
+
+/css/solid.css" rel="stylesheet">
+    
+      
   </head>
 
   <body>
-
+    
     <div class="bloc_page">
 
       <header class="header">   
@@ -23,14 +34,29 @@
       </header>
 
       <main class="main">
-        <section class="section1">
+
+        <form class="searchForm" action="proceedFrom.html" method="GET">
+          <span class="searchFormWrapicon">
+            <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
+          </span>
+          <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
+          <button class="searchFormSubmitinput">
+            <span class="searchFormSubmitinputText">Rechercher</span>
+            <i class="searchFormSubmitinputIcon fas fa-search"></i>
+          </button>
+        </form>
+        <i class="fab fa-firefox"></i>
+
+        <section class="searchsection">
           <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
           <p>en plein centre ville ou en pleine nature</p>
           <p class="info"> ! Plus de 500 logements sont disponible dans cette ville</p>
         
-          <input class="barre de recherche" type="search">
-          <input class="Rechercher" type="button" value="Rechercher">
-        
+          <input class="searchbar" type="search">
+          <div class="rechercherbutton">
+            <i class="fas fa-map-marker-alt"></i>
+            <input class="searchbutton" type="button" value="Rechercher">
+          </div>
           <div class="filtres container">
             <input class="filtres"  type="button" value="Filtres">        
             <input class="filtres" type="button" value="Economique">
@@ -40,11 +66,11 @@
           </div>
         </section>
       
-        <section class="section2">
+        <section class="section-hebergements">
           <article class="hebergements"> 
             <h2> Hébergements à Marseille</h2>
 
-            <div class="figbox">  
+            <div class="figurecontainer">  
               <figure>
                 <img src="images/hebergements/4_small/cannebiere.jpg" alt="Hôtel de la Canebiere">
                 <figcaption>
@@ -89,8 +115,8 @@
 
           <aside>
             <h2> Les plus populaires</h2>
-            
-            <figure class="figpopulaire">
+             <!-- etape du jour nomenclature class figure aside -->
+            <figure class="figureaside">
               <img src="images/hebergements/4_small/lesoleildumatin.jpg">
               <figcaption>
                 <h3>Hôtel le soleil du matin</h3><br>
@@ -165,7 +191,7 @@
           </article>
         </section>
       </main> 
-       
+
       <footer class="footer" >     
         <ul>
           <li>A propos</li>
@@ -185,6 +211,7 @@
           <li>Centre d'aide</li>
           <li>Nous contacter</li>
         </ul> 
+        <i class="fab fa-firefox"></i>
       </footer>
     </div> 
    
