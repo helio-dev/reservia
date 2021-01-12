@@ -1,4 +1,12 @@
+.header
+{
+    height: 250px;
+}
 
+.headerlogo
+{
+ width: 10%;   
+}
 
 .hebergements, aside
 {
@@ -77,10 +85,7 @@ body
     padding: 5px;
 }
 
-.logo
-{
- width: 10%;   
-}
+
 
 h1
 {
@@ -108,3 +113,6 @@ nav>ul
     color: grey;
 }
 
+.etoilesbleues
+
+.etoilesnoires
