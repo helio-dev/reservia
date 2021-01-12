@@ -1,11 +1,49 @@
+html
+{
+    font-family:  'Raleway', sans-serif;
+}
+
+
 .header
 {
     height: 250px;
+    width: 100%;
 }
 
 .headerlogo
 {
- width: 10%;   
+ width: 10%;  
+ position: absolute;
+ top: 30px; 
+}
+
+.headernav
+{
+    position: absolute ;
+    right: 5px;
+    top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.linav, 
+{
+    display: inline;        
+}
+
+
+li>a
+{
+text-decoration-line: none;
+
+}
+
+li>a:hover
+{
+    border-top: #0065FC solid 2px;
+    opacity: 80%;
+    
 }
 
 .hebergements, aside
@@ -92,13 +130,7 @@ h1
  font-size: 1em; 
 }
 
-nav>ul
-/* ul enfant de nav  */
-{
-    list-style: none;
-}
-
-.linav, .filtres
+.linav .filtres
 {
     display: inline;
 }
