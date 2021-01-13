@@ -24,11 +24,11 @@
   -->
 
   <!--
-    
+    J'ai trop galérer avec les div autour des filtres, sans div autour des logo fontawesome mais div filtres ne marchait pas
   -->
   <body>
     
-    <div class="bloc_page">
+    <div class="bloc-page">
 
       <header class="header">   
         <img class="headerlogo" src="images/logo/Reservia@3x.png" alt="logoreservia">
@@ -48,34 +48,39 @@
           <p>en plein centre ville ou en pleine nature</p>
           
           <div class="searchcontainer">
-            <div class="searchbar">
+            <div class="searchcontent">
               <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
               <input class="searchbar" type="search">
+              <input class="searchbutton" type="button" value="Rechercher">
             </div>
-          </div>
+            </div>
           
-          <input class="searchbutton" type="button" value="Rechercher">
           
-          <div class="filtres container">
+         
+          
+          <div class="filtres-container">
             <h3>Filtres</h3>
-            <div class="filtresbutton">
-              <i class="fas fa-money-bill-wave"></i>
+            <div class="filtres-button">
+              <div class="filtres-icon">
+                <i class="fas fa-money-bill-wave"></i>
+              </div>
+              
               <input class="filtres" type="button" value="Economique">
             </div>
             
-            <div class="filtresbutton">
+            <div class="filtres-button">
               <i class="fas fa-child"></i>
               <input class="filtres" type="button" value="Familial">
             </div>
 
-            <div class="filtresbutton">
+            <div class="filtres-button">
               <i class="fas fa-heart"></i>
               <input class="filtres" type="button" value="Romantique">       
 
             </div>
 
 
-            <div class="filtresbutton">
+            <div class="filtres-button">
               <i class="fas fa-dog"></i>
               <input class="filtres" type="button" value="Animaux autorisés">
 
