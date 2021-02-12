@@ -304,17 +304,14 @@ p+i
 .fighebergements
 {
     margin: 0px;
-    
-}
-
-
-.figure-child
-{
     background-color: white;
     border-radius: 15px;
     padding: 5px;
     margin:10px;
+    
 }
+
+
 
 .article-afficherplus
 {
