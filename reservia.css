@@ -74,10 +74,7 @@ li>a:hover
 /* Header */
 
 /* SEARCH SECTION */
-.searchsection
-{
-    height: 250px;
-}
+
 
 input::placeholder 
 {
@@ -111,6 +108,7 @@ h1
     flex-wrap: nowrap;
     height: 30px;  
     padding: 0px;
+    margin-bottom: 17px;
     
 }
 
@@ -175,6 +173,7 @@ h1
 .filtres-title
 {
     margin-right: 20px;
+    font-size:0.9em;
 }
 
 .filtres
@@ -186,7 +185,7 @@ h1
     padding-right: 20px;
     white-space: nowrap;
     font-weight: bold;
-    font-size: small;
+    font-size: 0.9em;
     padding: 5px;
 }
 
@@ -219,6 +218,7 @@ h1
 {
     display: flex;
     align-items: center;
+    margin-bottom: 17px;
 }
 
 
