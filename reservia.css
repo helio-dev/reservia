@@ -260,7 +260,8 @@ p+i
 .section-hebergements
 {
     display: flex;
-    margin: auto;  
+    margin: auto; 
+    width: 100%; 
 }
 
 
@@ -286,8 +287,7 @@ p+i
  border-radius: 15px;
  background-color: #F2F2F2;
  padding: 10px;
- height: 50%;
- width: 150%;
+ max-width: 70%;
 }
 .figurecontainer
 {
