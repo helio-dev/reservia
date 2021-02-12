@@ -17,7 +17,7 @@ body
 
 h1
 {
- font-size: 1em; 
+ font-size: 17px; 
 }
 p
 {
@@ -47,7 +47,8 @@ p
 .linav 
 {
     display: inline;
-    margin-left: 20px;      
+    margin-left: 20px;   
+    font-size: 12px;   
 }
 
 a
@@ -96,6 +97,7 @@ h1
 .p-searchsection
 {
     margin-top: 0px;
+    font-size: 12px;
 }
 
 
@@ -229,6 +231,13 @@ h1
     padding: 6px; 
     border: 1.5px solid #d9d9d9f3;
     margin-right: 14px;
+
+    
+}
+
+i~p
+{
+    font-size: 12px;
 }
 /* SEARCH SECTION */
 
