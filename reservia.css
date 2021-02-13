@@ -22,6 +22,7 @@ h1
 p
 {
     color: rgb(82, 77, 77);
+    font-size: 12px;
 }
 
 /* Header */
@@ -308,7 +309,7 @@ p+i
  border-radius: 15px;
  background-color: #F2F2F2;
  padding: 10px;
- max-width: 70%;
+ max-width: 65%;
 }
 .figurecontainer
 {
@@ -370,6 +371,11 @@ aside
     display: flex;
     height:18%;
 }
+
+.p-aside
+{
+    margin-top: -15px;
+}
 .lespluspopulaires-images
 {
     width: 100%;
@@ -392,6 +398,10 @@ aside
 .lespluspopulaires-images
 {
     width: 40%;
+}
+.starcontainer
+{
+    margin-top: 20px;
 }
 /*Aside */
 
