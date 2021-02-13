@@ -246,7 +246,7 @@ i~p
 /* Hebergements */
 figcaption>h3
 {
-    margin-top: 0px;
+    margin-top: 5px;
     font-size: 10px;
     margin-bottom:0px;
 }
@@ -356,16 +356,19 @@ aside
 {
     font-size: 14px;
 }
+.figure-aside-container
+{
+    height: 100%;
+}
 .figureaside
 {
     width: auto;
     background-color: white;
-    height: auto;
     border-radius: 15px;
     padding: 5px;
     margin: 10px;
     display: flex;
-    height:30%;
+    height:18%;
 }
 .lespluspopulaires-images
 {
