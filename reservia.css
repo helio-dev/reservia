@@ -93,13 +93,13 @@ h1
 .title-searchsection
 {
     margin-bottom: 0px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .p-searchsection
 {
     margin-top: 0px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
@@ -263,7 +263,7 @@ h3+p
 
 .hebergement-title
 {
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 10px;
 }
 
@@ -411,7 +411,7 @@ aside
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1.25fr 1fr;
 }
 
 .figure-activites
@@ -493,7 +493,8 @@ footer
 
 .footer-title
 {
-    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 /* Footer */
@@ -515,6 +516,7 @@ footer
 .liste-footer
 {
     list-style: none;
+    font-size: 12px;
 }
 
 .titre
@@ -527,3 +529,11 @@ footer
     color: grey;
 }
 
+
+/* MEDIA QUERIES */
+/* IPHONE8 screen 750PX */
+
+@media only screen and (min-width: 375px) and (max-width: 767px)
+{
+ 
+}
