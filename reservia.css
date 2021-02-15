@@ -545,5 +545,19 @@ and (-webkit-min-device-pixel-ratio:2)
  .headerlogo
  {width: 30%;}
 
+ .headernav
+ {position: static;
+  margin-top: 190px;}
 
+ .linav
+ {
+     font-size: 30px;
+ }
+ 
+.title-searchsection
+{margin-bottom: 0px; font-size: 55px; margin-right: 100px;}
+
+.p-searchsection
+{margin-top: 5px; font-size: 15px;}
+ 
 }
