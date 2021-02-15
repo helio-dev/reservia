@@ -539,6 +539,9 @@ and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio:2)
 
 {
+
+ .body
+ {margin: 15px;}   
  .header
  {height: 120px;}
  
@@ -555,9 +558,39 @@ and (-webkit-min-device-pixel-ratio:2)
  }
  
 .title-searchsection
-{margin-bottom: 0px; font-size: 55px; margin-right: 100px;}
+{margin-bottom: 0px; font-size: 30px; margin-right: 180px; line-height: 40px;}
 
 .p-searchsection
-{margin-top: 5px; font-size: 15px;}
- 
+{margin-top: 5px; font-size: 13px;margin-bottom: 50px;}
+
+.searchbar
+{font-size: 40px; padding: 40px;}
+
+.searchFormWrapiconIcon
+{font-size: 2em; padding:40px;}
+.filtres-container
+{margin-top: 50px;}
+
+.searchbutton
+{border-radius: 30px 30px 30px 30px; padding: 40px;}
+
+.filtres-container
+{flex-wrap: wrap;}
+
+.filtres
+{font-size: 30px;}
+.filtres-button
+{height: 60px;}
+
+.section-hebergements
+{display: block;}
+
+.figurecontainer
+{display: block;}
+
+.hebergements
+{background-color: white;}
 }
+
+.hebergements-images
+{border-radius: 30px 30px;}
