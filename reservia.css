@@ -533,7 +533,17 @@ footer
 /* MEDIA QUERIES */
 /* IPHONE8 screen 750PX */
 
-@media only screen and (min-width: 375px) and (max-width: 767px)
+@media only screen 
+and (min-device-width:375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio:2)
+
 {
+ .header
+ {height: 120px;}
  
+ .headerlogo
+ {width: 30%;}
+
+
 }
