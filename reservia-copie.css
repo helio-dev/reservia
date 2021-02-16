@@ -1,0 +1,480 @@
+html
+{
+    font-family:  'Raleway', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    margin: auto;
+}
+
+
+.bloc-page
+{
+    margin: 20px;
+}
+
+h1
+{
+ font-size: 1em; 
+}
+p
+{
+    color: rgb(82, 77, 77);
+}
+
+/* Header */
+.header
+{
+    height: 60px;
+    width: 100%;
+}
+
+.headerlogo
+{
+ width: 7%;  
+ position: absolute;
+ top: 30px; 
+}
+
+.headernav
+{
+    position: absolute ;
+    right: 20px;
+    top: 30px;    
+}
+.linav 
+{
+    display: inline;
+    margin-left: 20px;      
+}
+
+a
+{
+color: #4c7bfc;
+}
+
+
+li>a
+{
+text-decoration-line: none;
+}
+
+li>a:hover
+{
+       
+    box-sizing: content-box;
+    width: 100%;
+    border-top: solid #0065FC 2px;
+    padding: 20px
+    
+    ;
+}
+/* Header */
+
+/* SEARCH SECTION */
+.searchsection
+{
+    height: 250px;
+}
+
+input::placeholder 
+{
+   font-style: bold;
+   color: black;
+   
+}
+
+h1
+{
+    font-weight: bold;
+}
+
+.title-searchesection
+{
+    margin-bottom: 0px;
+}
+
+.p-searchsection
+{
+    margin-top: 0px;
+}
+
+
+
+.searchcontainer
+{
+   
+    width: 33%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 30px;  
+    padding: 0px;
+    
+}
+
+.searchFormWrapiconIcon
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    background-color: #d2d2d2;
+    color: black;
+    padding: 7px;
+    font-size: 0.8em;
+}
+
+.bluestar
+{
+    color:#0965fb;
+}
+
+.greystar
+{
+    color: #d2d2d2
+}
+.star
+{
+    white-space: nowrap
+    ;
+}
+.searchbar
+{
+    width: 60%;
+    height: 100%;
+    border-width: 1px 0px 1px 0px;
+    border-color: #d2d2d2;
+    border-style: solid;
+}
+
+.searchbutton
+{
+    border: none;
+    height: 100%;
+    background-color:#0065FC;
+    right: 0px;
+    border-radius:0 10px 10px 0;
+    color: white;    
+}
+
+.linav
+{
+    display: inline;
+}
+
+
+.filtres-container
+{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.filtres-title
+{
+    margin-right: 20px;
+}
+
+.filtres
+{
+   
+    font-family: bold;
+    font-family:  'Raleway', sans-serif;
+    color: black;
+    padding-right: 20px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: small;
+    padding: 5px;
+}
+
+
+.filtres-button
+{
+    border-color:#d9d9d9f3;
+    border-style: solid;
+    border-width: 2px 2px 2px 0px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-right: 10px;
+    padding-right: 4px;
+    /* definir 4 valeur de margin pour une margin right*/
+    
+}
+
+.fa-money-bill-wave,  .fa-child, .fa-heart, .fa-dog
+{
+    color:#0065FC;
+    background-color: #deecff;
+    border-radius: 50%;
+    padding: 9px; 
+}
+
+
+.info
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.fa-info
+{
+    color:#0065FC;
+    border-radius: 50%;
+    padding: 6px; 
+    border: 1.5px solid #d9d9d9f3;
+    margin-right: 14px;
+}
+/* SEARCH SECTION */
+
+
+/* Hebergements */
+figcaption>h3
+{
+    margin-top: 0px;
+    font-size: 12px;
+    margin-bottom:0px;
+}
+
+h3+p
+{
+    color: rgb(82, 77, 77);
+    margin-top: 0px;
+    font-size: 12px;
+    margin-bottom: 0px;
+
+}
+
+p+i
+{
+    margin-top: 0px;
+}
+
+
+
+.section-hebergements
+{
+    display: flex;
+    margin: auto;  
+}
+
+
+.hebergements-images, .lespluspopulaires-images
+{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.fa-stargrey
+{
+    color:#d2d2d2;
+    font-size: 12px;
+}
+
+.fa-starblue
+{
+    color:#0065FC;
+    font-size: 12px;
+}
+.hebergements
+{
+ margin-right: 20px;
+ border-radius: 15px;
+ background-color: #F2F2F2;
+ padding: 10px;
+ height: 50%;
+ width: 150%;
+}
+.figurecontainer
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 190px 190px;
+    grid-row-gap:10px ;
+    padding-bottom: 50px;
+    grid-column-gap:10px;
+    
+}
+
+.fighebergements
+{
+    margin: 0px;
+    
+}
+
+
+.figure-child
+{
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    margin:10px;
+}
+
+.article-afficherplus
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+/* Hebergements */
+
+/*Aside */
+aside
+{
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    padding: 10px;   
+}
+
+.figureaside
+{
+    width: auto;
+    background-color: white;
+    height: auto;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    height:30%;
+}
+.lespluspopulaires-images
+{
+    width: 100%;
+    border-radius: 15px 0px 0px 15px;
+}
+.aside-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside-content
+{
+  display:flex;
+  height:100%;
+  flex-direction: column;
+}
+
+.lespluspopulaires-images
+{
+    width: 40%;
+}
+/*Aside */
+
+/* Section3 */
+
+.figbox
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.figure-activites
+{  
+   box-shadow:  0 0 40px #F2F2F2;
+   margin: 10px;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.figure-activites:nth-child(1)
+{
+    grid-row-start: 1;
+    grid-row-end:3 ;
+}
+
+.figure-activites:nth-child(4)
+{
+    grid-row-start: 1;
+    grid-row-end:3 ;
+    grid-column-start:3;
+    grid-column-end:4;
+}
+.activites-images
+{
+    background-size: cover;
+width: 100%;
+border-radius: 15px 15px 0px 0px;
+height: 80%
+}
+
+.article3
+{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+
+
+/* Section3 */
+
+/* Footer */
+
+.megadiv
+{
+    padding: 3rem 0rem;
+    margin-right: 20px;
+}
+
+footer
+{
+    background-color: #F2F2F2;
+    width: 100%;
+    display: flex;    
+}
+
+.liste-footer
+{
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box
+}
+
+.footer-title
+{
+    font-style: bold;
+}
+
+/* Footer */
+
+.megadiv:nth-child(2)
+{
+    margin-left: 50px;
+}
+
+.megadiv:nth-child(3)
+{
+    margin-left:50px;
+}
+.linav 
+{
+    display: inline;
+}
+
+.liste-footer
+{
+    list-style: none;
+}
+
+.titre
+{
+    font-style: bold;
+}
+
+.prix
+{
+    color: grey;
+}
+

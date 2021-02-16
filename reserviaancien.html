@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>reservia.fr</title>
+<link rel="stylesheet" href="reservia.css">
+
+<link href="/home/toor/Bureau/gitopc/reservia-git/fontawesome-free-5.15.1-web/css/fontawesome.css" rel="stylesheet">
+<link href="/home/toor/Bureau/gitopc/reservia-git/fontawesome-free-5.15.1-web/css/brands.css" rel="stylesheet">
+<link href="/home/toor/Bureau/gitopc/reservia-git/fontawesome-free-5.15.1-web/css/solid.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- Comment créer des étoiles blanches et des étoiles bleues.
+stratégie n1: créer une boite div avec une classe pour les bleue et une pour les blanches.
+ou bien mettre un span avec une class pour les bleues et un span class avec les blancs.
+-->
+
+<!--
+Pour le footer, mettre tout dans des listes à puces ul ou bien creer des div class avec des
+
+-->
+
+<!--
+J'ai trop galérer avec les div autour des filtres, sans div autour des logo fontawesome mais div filtres ne marchait pas
+-->
+<body>
+
+<div class="bloc-page">
+
+<header class="header">
+<img class="headerlogo" src="images/logo/Reservia@3x.png" alt="logoreservia">
+<nav>
+<ul class="headernav">
+<li class="linav"> <a href="#ancre1"> Hébergements </a></li>
+<li class="linav"> <a href="#ancre2"> Activités </a> </li>
+<li class="linav"><a href="#ancre3">S'inscrire</a></li>
+</ul>
+</nav>
+</header>
+
+<main class="main">
+
+<section class="searchsection">
+<h1> Trouvez votre hébergement pour des vacances de rêve</h1>
+<p>en plein centre ville ou en pleine nature</p>
+
+<div class="searchcontainer">
+<div class="searchcontent">
+<div class="search-logo">
+<i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
+</div>
+<div class="search-input">
+<input class="searchbar" type="search">
+<input class="searchbutton" type="button" value="Rechercher">
+</div>
+</div>
+</div>
+
+
+
+
+<div class="filtres-container">
+<h3>Filtres</h3>
+<div class="filtres-button">
+<div class="filtres-icon">
+<i class="fas fa-money-bill-wave"></i>
+</div>
+
+<input class="filtres" type="button" value="Economique">
+</div>
+
+<div class="filtres-button">
+<div class="filtres-icon">
+<i class="fas fa-child"></i>
+</div>
+<input class="filtres" type="button" value="Familial">
+</div>
+
+<div class="filtres-button">
+<div class="filtres-icon">
+<i class="fas fa-heart"></i>
+</div>
+<input class="filtres" type="button" value="Romantique">
+
+</div>
+
+
+<div class="filtres-button">
+<div class="filtres-icon">
+<i class="fas fa-dog"></i>
+</div>
+<input class="filtres" type="button" value="Animaux autorisés">
+
+</div>
+
+
+</div>
+<div class="info">
+<div class="info-logo">
+<i class="fas fa-info"></i>
+</div>
+<p> ! Plus de 500 logements sont disponible dans cette ville</p>
+</div>
+
+
+</section>
+
+<section class="section-hebergements">
+<article class="hebergements">
+<h2> Hébergements à Marseille</h2>
+
+<div class="figurecontainer">
+<figure>
+<img src="images/hebergements/4_small/cannebiere.jpg" alt="Hôtel de la Canebiere">
+<figcaption>
+<h3>Auberge de la Cannebière</h3>
+<p>Nuit à partir de <em>25€</em></p>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</figcaption>
+</figure>
+
+<figure>
+<img src="images/hebergements/4_small/duport.jpg" alt="Hôtel de la Canebiere">
+<figcaption>
+<h3>Hôtel du port</h3>
+<p>Nuit à partir de <em>50€</em></p>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</figcaption>
+</figure>
+
+<figure>
+<img src="images/hebergements/4_small/lesmouettes.jpg" alt="Hôtel de la Canebiere">
+<figcaption>
+<h3>Hôtel de la mer</h3>
+<p>Nuit à partir de <em>46€</em></p>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</figcaption>
+</figure>
+
+<figure>
+<img src="images/hebergements/4_small/lepanier.jpg" alt="Hôtel de la Canebiere">
+<figcaption>
+<h3>Auberge le Panier</h3>
+<p>Nuit à partir de <em>25€</em></p>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</figcaption>
+</figure>
+
+<figure>
+<img src="images/hebergements/4_small/chezamina.jpg" alt="Hôtel de la Canebiere">
+<figcaption>
+<h3>Hôtel chez Amina</h3>
+<p>Nuit à partir de <em>90€</em></p>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</figcaption>
+</figure>
+</div>
+</article>
+
+<aside>
+<h2> Les plus populaires</h2>
+<i class="fas fa-chart-line"></i>
+<!-- etape du jour nomenclature class figure aside -->
+<figure class="figureaside">
+<img src="images/hebergements/4_small/lesoleildumatin.jpg">
+<figcaption>
+<h3>Hôtel le soleil du matin</h3><br>
+<p>Nuit à partir de <em>54€</em></p>
+<div class="etoilebleue">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<div class="etoilesblanches">
+<i class="fas fa-star"></i>
+</div>
+</figcaption>
+</figure>
+
+<figure class="figpopulaire">
+<img src="images/hebergements/4_small/aucourdeleau.jpg">
+<figcaption>
+<h3>Au cours de l'eau Chambres d'hôtes</h3><br>
+<p>Nuit à partir de <em>70€</em></p>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</figcaption>
+</figure>
+
+<figure class="figpopulaire">
+<img src="images/hebergements/4_small/toutbleuetblanc.jpg">
+<figcaption>
+<h3>Hôtel Tout bleu et Blanc</h3><br>
+<p>Nuit à partir de <em>68€</em></p>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</figcaption>
+</figure>
+</aside>
+</section>
+
+<section class="section3">
+<article class="article3">
+<h2>Activités à Marseille</h2>
+<div class="figbox">
+<figure>
+<img src="images/activites/4_small/vieuxport.jpg" alt="le vieux port">
+<figcaption>
+<h3>Vieux Port</h3>
+</figcaption>
+</figure>
+
+<figure>
+<img src="images/activites/4_small/fortdeplomegues.jpg" alt="Le fort de Pomègues">
+<figcaption>
+<h3>Fort de Pomègues</h3>
+</figcaption>
+</figure>
+
+<figure>
+<img src="images/activites/4_small/ilesdufrioul.jpg" alt="Iles du Frioul">
+<figcaption>
+<h3>Iles du Frioul</h3>
+</figcaption>
+</figure>
+
+<figure>
+<img src="images/activites/4_small/parcnationaldescalanques.jpg" alt="Parc national des Calanques">
+<figcaption>
+<h3>Parc national des Calanques</h3>
+</figcaption>
+</figure>
+
+<figure>
+<img src="images/activites/4_small/notredamedelagarde.jpg" alt="Notre Dame de la garde">
+<figcaption>
+<h3>Notre dame de la garde</h3>
+</figcaption>
+</figure>
+
+<figure>
+<img src="images/activites/4_small/parclongchamp.jpg" alt="Parc Longchamp">
+<figcaption>
+<h3>Parc Longchamp</h3>
+</figcaption>
+</figure>
+</div>
+</article>
+</section>
+</main>
+
+<footer class="footer" >
+<ul>
+<li>A propos</li>
+<li>Fonctionnement du site</li>
+<li>Conditions générales de vente</li>
+<li>Données et confidentialité</li>
+</ul>
+
+<ul>
+<li>Nos hébergements</li>
+<li>Charte qualité</li>
+<li>Soumettre votre hôtel</li>
+</ul>
+
+<ul>
+<li>Assistance</li>
+<li>Centre d'aide</li>
+<li>Nous contacter</li>
+</ul>
+</footer>
+</div>
+
+</body>
+</html>

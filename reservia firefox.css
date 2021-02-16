@@ -1,0 +1,359 @@
+html
+{
+    font-family:  'Raleway', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    margin: auto;
+}
+
+
+.bloc-page
+{
+    margin: 20px;
+}
+
+h1
+{
+ font-size: 1em; 
+}
+
+/* Header */
+.header
+{
+    height: 100px;
+    width: 100%;
+}
+
+.headerlogo
+{
+ width: 10%;  
+ position: absolute;
+ top: 30px; 
+}
+
+.headernav
+{
+    position: absolute ;
+    right: 20px;
+    top: 30px;    
+}
+.linav 
+{
+    display: inline;
+    margin-left: 20px;      
+}
+
+a
+{
+color: #4c7bfc;
+}
+
+
+li>a
+{
+text-decoration-line: none;
+}
+
+li>a:hover
+{
+    border-top: #0065FC solid 2px;
+    opacity: 80%;
+    color: #d2d2d2;   
+}
+/* Header */
+
+/* SEARCH SECTION */
+.searchsection
+{
+    height: 250px;
+}
+h1
+{
+    font-weight: bold;
+}
+
+p
+{
+    color: rgb(82, 77, 77)
+}
+
+.searchcontainer
+{
+   
+    width: 33%;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 30px;  
+    padding: 0px;
+    
+}
+
+.searchFormWrapiconIcon
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    background-color: #d2d2d2;
+    color: black;
+    padding: 7px;
+    font-size: 0.8em;
+}
+
+.searchbar
+{
+    width: 60%;
+    height: 100%;
+    border-width: 1px 0px 1px 0px;
+    border-color: #d2d2d2;
+    border-style: solid;
+}
+
+.searchbutton
+{
+    border: none;
+    height: 100%;
+    background-color:#0065FC;
+    right: 0px;
+    border-radius:0 10px 10px 0;
+    color: white;    
+}
+
+.linav
+{
+    display: inline;
+}
+
+
+.filtres-container
+{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.filtres-title
+{
+    margin-right: 20px;
+}
+
+.filtres
+{
+   
+    font-family: bold;
+    font-family:  'Raleway', sans-serif;
+    color: black;
+    padding-right: 20px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: small;
+    padding: 5px;
+}
+
+
+.filtres-button
+{
+    border-color:#d9d9d9f3;
+    border-style: solid;
+    border-width: 2px 2px 2px 0px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-right: 10px;
+    padding-right: 4px;
+    /* definir 4 valeur de margin pour une margin right*/
+    
+}
+
+.fa-money-bill-wave,  .fa-child, .fa-heart, .fa-dog
+{
+    color:#0065FC;
+    background-color: #deecff;
+    border-radius: 50%;
+    padding: 9px; 
+}
+
+
+.info
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.fa-info
+{
+    color:#0065FC;
+    border-radius: 50%;
+    padding: 6px; 
+    border: 1.5px solid #d9d9d9f3;
+    margin-right: 14px;
+}
+/* SEARCH SECTION */
+
+
+/* Hebergements */
+.section-hebergements
+{
+    display: flex;
+    margin: auto;  
+}
+
+.hebergements-images, .lespluspopulaires-images
+{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.hebergements
+{
+ margin-right: 20px;
+ border-radius: 15px;
+ background-color: #F2F2F2;
+ padding: 30px;
+ height: 50%;
+ width: 68%;
+}
+.figurecontainer
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding-bottom: 50px;
+}
+
+.fighebergements
+{
+    margin: 0px;
+    
+}
+
+
+.figure-child
+{
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    margin:10px;
+}
+/* Hebergements */
+
+/*Aside */
+aside
+{
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    padding: 30px;   
+}
+
+.figureaside
+{
+    width: auto;
+    background-color: white;
+    height: auto;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+}
+
+.aside-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside-content
+{
+
+}
+
+.lespluspopulaires-images
+{
+    width: 40%;
+}
+/*Aside */
+
+/* Section3 */
+
+.figbox
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.figure-activites
+{
+   box-shadow:  0 0 40px #F2F2F2;
+}
+
+.activites-images
+{
+    background-size: cover;
+width: 300px;
+}
+
+.article3
+{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+
+/* Section3 */
+
+/* Footer */
+
+.megadiv
+{
+    padding: 3rem 0rem;
+}
+
+footer
+{
+    background-color: #F2F2F2;
+    width: 100%;
+    display: flex;    
+}
+
+.liste-footer
+{
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box
+}
+
+.footer-title
+{
+    font-style: bold;
+}
+
+/* Footer */
+
+
+.linav 
+{
+    display: inline;
+}
+
+.titre
+{
+    font-style: bold;
+}
+
+.prix
+{
+    color: grey;
+}
+
+.etoilesbleues
+
+.etoilesnoires
+
+/
